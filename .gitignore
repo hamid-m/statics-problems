@@ -1,0 +1,6 @@
+# Latex intermediate files
+*.aux
+*.log
+
+# Latex output
+hw.pdf
