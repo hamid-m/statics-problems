@@ -1,7 +1,7 @@
 
 \documentclass{article}
 
-\usepackage{amsmath,amsfonts,epsfig,subfigure,import,ifthen,caption}
+\usepackage{amsmath,amsfonts,epsfig,subfigure,import,ifthen,caption,etoolbox}
 
 
 % Change Margins: This gives margins with 1in on top, 
@@ -24,7 +24,9 @@
 % Set up commands 
 \newcommand{\buildkey}{HW2}
 \newcommand{\soln}{false}
+\newtoggle{flagSoln}
 
+\togglefalse{flagSoln}
 
 \vspace{1cm}
 
@@ -52,6 +54,7 @@ Unless otherwise mentioned, these problems should be solvable using a basic calc
 }
 
 \ifthenelse{ \equal{\buildkey}{HW2} }{
+	
 	%% HW 2 (Sections 2.3 - 2.5)
 	\noindent
 	\begin{enumerate}
