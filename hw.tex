@@ -1,7 +1,7 @@
 
 \documentclass{article}
 
-\usepackage{amsmath,amsfonts,epsfig,subfigure,import}
+\usepackage{amsmath,amsfonts,epsfig,subfigure,import,ifthen,caption,etoolbox}
 
 
 % Change Margins: This gives margins with 1in on top, 
@@ -22,28 +22,52 @@
 \begin{document}
 
 % Set up commands 
+\newcommand{\buildkey}{HW2}
+\newcommand{\soln}{false}
+\newtoggle{flagSoln}
+
+\toggletrue{flagSoln}
 
 \vspace{1cm}
 
 \noindent
-\textbf{AEM 2011 Homework \#1}
-\hfill Tuesday, January 17, 2023
+\textbf{AEM 2011 Homework \#2} (2.3, 2.4, 2.5)
+\hfill Wednesday, January 25, 2023
 
 \vspace{.3cm}
 
 Unless otherwise mentioned, these problems should be solvable using a basic calculator. Practice clear communication by showing all work (free body diagrams, algebra, etc).  This will be required to receive full credit on any graded problems.
 
-% Briefly justify your answers.
+%% HW 1 (Sections 2.1 - 2.2)
 \noindent
-\begin{enumerate}
-  \item \import{probs/vector-math-2d}{prob.tex} \newpage
-  \item \import{probs/resolve-vectors-2d}{prob.tex} \newpage
-  \item \import{probs/find-vectors-3d}{prob.tex} \newpage
-  \item \import{probs/find-resultant-2d}{prob.tex} \newpage
-  \item \import{probs/hanging-robot}{prob.tex} \newpage
-  \item \import{probs/find-resultant-angle-2d}{prob.tex} \newpage
-%  \item \import{probs/airplane-steady}{prob.tex} \newpage
-%  \item \import{probs/find-force-2d}{prob.tex} \newpage
-\end{enumerate}
+
+\ifthenelse{ \equal{\buildkey}{HW1} }{
+	\begin{enumerate}
+	  \item \import{probs/vector-math-2d}{prob.tex} \newpage
+	  \item \import{probs/resolve-vectors-2d}{prob.tex} \newpage
+	  \item \import{probs/find-vectors-3d}{prob.tex} \newpage
+	  \item \import{probs/find-resultant-2d}{prob.tex} \newpage
+	  \item \import{probs/hanging-robot}{prob.tex} \newpage
+	  \item \import{probs/find-resultant-angle-2d}{prob.tex} \newpage
+	%  \item \import{probs/airplane-steady}{prob.tex} \newpage
+	\end{enumerate}
+}
+
+\ifthenelse{ \equal{\buildkey}{HW2} }{
+	
+	%% HW 2 (Sections 2.3 - 2.5)
+	\noindent
+	\begin{enumerate}
+	  \item \import{probs/02.2-lift}{prob.tex} \newpage
+	  \item \import{probs/02.3-banner-tension}{prob.tex} \newpage
+          \item \import{probs/02.4-rocket}{prob.tex} \newpage
+          \item \import{probs/02.5-tower}{prob.tex} \newpage
+          \item \import{probs/02.5-skycam}{prob.tex} \newpage
+          \item \import{probs/02.5-balloon}{prob.tex} \newpage
+          \item \import{probs/02-BJM-12ed}{prob.tex} \newpage
+	\end{enumerate}
+}
+
+
 \end{document}
 
