@@ -22,7 +22,7 @@
 \begin{document}
 
 % Set up commands 
-\newcommand{\buildkey}{HW7}
+\newcommand{\buildkey}{HW8}
 \newcommand{\soln}{false}
 \newtoggle{flagSoln}
 
@@ -40,8 +40,10 @@
 %\hfill Wednesday, February 15, 2023
 %\textbf{AEM 2011 Homework \#6} (5.1)
 %\hfill Friday, February 24, 2023
-\textbf{AEM 2011 Homework \#7} (5.1, 5.2)
-\hfill Wednesday, March 1, 2023
+% \textbf{AEM 2011 Homework \#7} (5.1, 5.2)
+% \hfill Wednesday, March 1, 2023
+\textbf{AEM 2011 Homework \#8} (5.2 (cont.), 5.3, 5.4)
+\hfill Wednesday, March 15, 2023
 
 \vspace{.3cm}
 
@@ -126,6 +128,19 @@ Unless otherwise mentioned, these problems should be solvable using a basic calc
     \item \import{probs/05.1-airplane}{prob.tex} \newpage
     \item \import{probs/05.2-integration}{prob.tex} \newpage
     \item \import{probs/05b-BJM-12ed}{prob.tex} \newpage
+	\end{enumerate}
+}
+
+\ifthenelse{ \equal{\buildkey}{HW8} }{
+	
+	\noindent
+	\begin{enumerate}
+    \item \import{probs/05.3-beam}{prob.tex} \newpage
+    \item \import{probs/05.3-aquarium}{prob.tex} \newpage
+    \item \import{probs/05.3-wingload}{prob.tex} \newpage
+    %% DO NOT USE - WIP \item \import{probs/05.3-dam}{prob.tex} \newpage
+    \item \import{probs/05.4-3dpart}{prob.tex} \newpage
+    \item \import{probs/05c-BJM-12ed}{prob.tex} \newpage
 	\end{enumerate}
 }
 
