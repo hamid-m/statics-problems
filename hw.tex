@@ -22,11 +22,11 @@
 \begin{document}
 
 % Set up commands 
-\newcommand{\buildkey}{HW10}
+\newcommand{\buildkey}{HW11}
 \newcommand{\soln}{false}
 \newtoggle{flagSoln}
 
-\toggletrue{flagSoln}
+\togglefalse{flagSoln}
 
 \vspace{1cm}
 
@@ -46,10 +46,10 @@
 %\hfill Wednesday, March 15, 2023
 %\textbf{AEM 2011 Homework \#9} (6.1, 6.2)
 %\hfill Wednesday, March 22, 2023
-\textbf{AEM 2011 Homework \#10} (6.3, 6.4, 7.1)
-\hfill Wednesday, March 29, 2023
-%\textbf{AEM 2011 Homework \#11} (7.2, 7.3)
-%\hfill Wednesday, April 4, 2023
+%\textbf{AEM 2011 Homework \#10} (6.3, 6.4, 7.1)
+%\hfill Wednesday, March 29, 2023
+\textbf{AEM 2011 Homework \#11} (7.2, 7.3)
+\hfill Wednesday, April 4, 2023
 
 \vspace{.3cm}
 
@@ -171,6 +171,16 @@ Unless otherwise mentioned, these problems should be solvable using a basic calc
     \item \import{probs/06.4-clamp}{prob.tex} \newpage
     \item \import{probs/07.1-beam}{prob.tex} \newpage
     \item \import{probs/07.1-landing-gear}{prob.tex} \newpage
+	\end{enumerate}
+}
+
+\ifthenelse{ \equal{\buildkey}{HW11} }{
+	
+	\noindent
+	\begin{enumerate}
+    \item \import{probs/07-BJM-12ed}{prob.tex} \newpage
+    \item \import{probs/07.2-beam}{prob.tex} \newpage
+    \item \import{probs/07.3-guthrie}{prob.tex} \newpage
 	\end{enumerate}
 }
 
