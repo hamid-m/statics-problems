@@ -1,0 +1,37 @@
+% meta.concepts: dry friction
+% meta.tags: realistic
+% acknowledge: Peter Seiler & Luke Melander graciously shared Spring 2019 course material
+% source: 2019 P. Seiler AEM2011 HW 11
+
+Race tracks and speedways are designed with turns that are banked at an angle. Banked turns help cars execute the turn at higher speeds as compared to flat turns. In the figure below, a car is shown executing a $25^\circ$ banked turn. Since this is actually a problem in dynamics, we will simply assume that a centripetal force $F_C$ acts in the horizontal direction on the car. This centripetal force has the following expression:
+\begin{equation*}
+  F_C = m\frac{V^2}{R}
+\end{equation*}
+where, $m$ is the mass of the car, $V$ is the speed of the car, and $R$ is the radius of curvature of the turn. The coefficient of static friction between the tires and the road is $\mu_s = 0.8$.
+
+Under the constraint that a car should not slide along the banked turn, find the percentage increase in the maximum possible speed at which a car can execute a banked turn as compared to a flat turn.
+
+\begin{figure*}[ht!]
+  \centering
+  \includegraphics[width=0.5\textwidth,
+	           height=0.4\textheight,
+		   keepaspectratio]{fig.png}
+       \caption*{Diagram of car executing banked turn (car is driving into the page).}
+\end{figure*}
+
+\iftoggle{flagSoln}{%
+\vspace{.5cm}
+\rule{\textwidth}{.4pt}
+\vspace{.5cm}
+\textbf{Solution:}
+\begin{figure}[ht!]
+  \centering
+  \frame{\includegraphics[width=0.9\textwidth,
+	           height=0.4\textheight,
+       keepaspectratio]{solna.png}}
+  \frame{\includegraphics[width=0.9\textwidth,
+	           height=0.4\textheight,
+       keepaspectratio]{solnb.png}}
+\end{figure}
+}{%
+}%
