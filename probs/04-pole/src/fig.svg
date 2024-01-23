@@ -9,9 +9,9 @@
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="fig.svg"
-   inkscape:export-filename="/home/onav-hamid/GitHub/hamid-m/statics-problems/probs/08-wheelbarrow/fig.png"
-   inkscape:export-xdpi="279.92999"
-   inkscape:export-ydpi="279.92999"
+   inkscape:export-filename="/home/onav-hamid/GitHub/hamid-m/statics-problems/probs/04-pole/fig.png"
+   inkscape:export-xdpi="338.29001"
+   inkscape:export-ydpi="338.29001"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,14 +27,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.393294"
-     inkscape:cx="160.05236"
-     inkscape:cy="190.91447"
-     inkscape:window-width="1488"
-     inkscape:window-height="991"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.1031763"
+     inkscape:cx="125.09333"
+     inkscape:cy="240.66869"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
      fit-margin-top="2"
      fit-margin-left="2"
@@ -270,6 +270,12 @@
        r="7.6223712"
        gradientTransform="matrix(0.81149809,0,0,1.2412034,-8.2222867,-4.2345192)"
        gradientUnits="userSpaceOnUse" />
+    <rect
+       x="225.21661"
+       y="301.92191"
+       width="162.10181"
+       height="111.47285"
+       id="rect7145-3" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -308,7 +314,7 @@
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2360);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="225.2168"
          y="319.61719"
-         id="tspan1360">x</tspan></text>
+         id="tspan1771">x</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,11.223798,-101.42901)"
@@ -316,7 +322,7 @@
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3318);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="225.2168"
          y="319.61719"
-         id="tspan1362">y</tspan></text>
+         id="tspan1773">y</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-34.561836,-139.10132)"
@@ -324,7 +330,7 @@
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3924);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="225.2168"
          y="319.61719"
-         id="tspan1364">z</tspan></text>
+         id="tspan1775">z</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.1222587,-81.638267)"
@@ -332,7 +338,7 @@
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect4794);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="225.2168"
          y="319.61719"
-         id="tspan1366">A</tspan></text>
+         id="tspan1777">A</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-9.4797773,-119.25193)"
@@ -340,7 +346,7 @@
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5712);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="225.2168"
          y="319.61719"
-         id="tspan1368">B</tspan></text>
+         id="tspan1779">B</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-18.47561,-122.95609)"
@@ -348,7 +354,15 @@
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect7145);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="225.2168"
          y="319.61719"
-         id="tspan1370">C</tspan></text>
+         id="tspan1781">C</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-35.669777,-67.516676)"
+       id="text7143-6"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect7145-3);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="225.2168"
+         y="319.61719"
+         id="tspan1783">O</tspan></text>
     <ellipse
        style="fill:url(#radialGradient1118);fill-opacity:1;stroke-width:0.30709"
        id="path928"
